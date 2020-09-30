@@ -8,12 +8,24 @@
     <h1>Turn-and-Talk Forms</h1>
     <form>
         <fieldset>
-            <h3>Who Is The Best?</h3>
+            <label><b>Who Is The Best?</b></label><br>
             <input type="radio" id="michaelscott" value="user_scott"><label for="michaelscott">Michael Scott</label><br>
             <input type="radio" id="dwightschrute" value="user_schrute"><label for="dwightschrute">Dwight K. Schrute</label><br>
             <input type="radio" id="jimhalpert" value="user_halpert"><label for="jimhalpert">Jim Halpert</label><br>
             <button type="submit">Submit anwser</button>
         </fieldset>
+
+        <fieldset>
+            <label for="funny"><b>Who Is The Funniest?</b></label>
+            <select id="funny" name="user_funny">
+                <option value="michael_scott">Michael Scott</option>
+                <option value="dwight_schrute">Dwight K. Schrute</option>
+                <option value="jim_halpert">Jim Halpert</option>
+                <button type="submit">Submit anwser</button>
+            </select>
+        </fieldset>
+
+        
     </form>
 </body>
 </html>
